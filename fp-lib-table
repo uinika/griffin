@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name griffin)(type KiCad)(uri ${KIPRJMOD}/griffin.pretty)(options "")(descr ""))
+)
