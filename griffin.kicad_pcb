@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 10)
+    (drawings 11)
     (tracks 0)
     (zones 0)
     (modules 41)
@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (grid_origin 192 141)
-    (visible_elements 7FFDFFFF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -2056,6 +2056,9 @@
     )
   )
 
+  (gr_text test (at 72 65) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (dimension 150 (width 0.15) (layer Dwgs.User)
     (gr_text "150.000 mm" (at 117 163.3) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
