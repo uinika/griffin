@@ -1449,4 +1449,6 @@ Text Notes 6950 10150 0    50   ~ 0
 POWER\n
 Text Label 8050 10600 0    50   ~ 0
 LED2
+Text Label 10000 8900 0    50   ~ 0
++3.3V
 $EndSCHEMATC
