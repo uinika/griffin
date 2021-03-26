@@ -14,25 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ME6211C33M5G-N:ME6211C33M5G-N IC1
-U 1 1 605A15B8
-P 7400 8800
-F 0 "IC1" H 7962 9124 50  0000 C CNN
-F 1 "ME6211C33M5G-N" H 7962 9024 50  0000 C CNN
-F 2 "griffin:SOT95P270X145-5N" H 8350 8900 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811131510_MICRONE-Nanjing-Micro-One-Elec-ME6211C33M5G-N_C82942.pdf" H 8350 8800 50  0001 L CNN
-F 4 "Fixed 6V 3.3V 500mA SOT-23-5 Low Dropout Regulators(LDO) RoHS" H 8350 8700 50  0001 L CNN "Description"
-F 5 "1.45" H 8350 8600 50  0001 L CNN "Height"
-F 6 "Microne" H 8350 8500 50  0001 L CNN "Manufacturer_Name"
-F 7 "ME6211C33M5G-N" H 8350 8400 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 8350 8300 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 8350 8200 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 8350 8100 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 8350 8000 50  0001 L CNN "Arrow Price/Stock"
-	1    7400 8800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R1
 U 1 1 605B66C8
 P 6600 5150
@@ -1310,7 +1291,7 @@ U 1 1 608F3C3A
 P 4650 1750
 F 0 "SW3" H 4650 2050 50  0000 C CNN
 F 1 "SW_Push" H 4650 1950 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH-12mm" H 4650 1950 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4650 1950 50  0001 C CNN
 F 3 "~" H 4650 1950 50  0001 C CNN
 	1    4650 1750
 	1    0    0    -1  
@@ -1451,4 +1432,19 @@ Text Label 8050 10600 0    50   ~ 0
 LED2
 Text Label 10000 8900 0    50   ~ 0
 +3.3V
+$Comp
+L griffin:ME6211C33M5G-N IC?
+U 1 1 605ECAB2
+P 7400 8800
+F 0 "IC?" H 7950 9065 50  0000 C CNN
+F 1 "ME6211C33M5G-N" H 7950 8974 50  0000 C CNN
+F 2 "SOT95P270X145-5N" H 8350 8900 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811131510_MICRONE-Nanjing-Micro-One-Elec-ME6211C33M5G-N_C82942.pdf" H 8350 8800 50  0001 L CNN
+F 4 "Fixed 6V 3.3V 500mA SOT-23-5 Low Dropout Regulators(LDO) RoHS" H 8350 8700 50  0001 L CNN "Description"
+F 5 "1.45" H 8350 8600 50  0001 L CNN "Height"
+F 6 "Microne" H 8350 8500 50  0001 L CNN "Manufacturer_Name"
+F 7 "ME6211C33M5G-N" H 8350 8400 50  0001 L CNN "Manufacturer_Part_Number"
+	1    7400 8800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

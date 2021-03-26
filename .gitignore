@@ -3,3 +3,7 @@
 *.kicad_pcb-bak
 
 _autosave-griffin.sch
+
+fp-info-cache
+
+*-cache.lib
