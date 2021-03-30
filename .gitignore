@@ -7,3 +7,5 @@ _autosave-griffin.sch
 fp-info-cache
 
 *-cache.lib
+
+gerber/**.*
